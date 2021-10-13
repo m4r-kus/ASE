@@ -10,11 +10,3 @@ class FooCalculator:
 
     def divide(self,m,n):
         return c.divide(m,n)
-
-FC = FooCalculator()
-
-m = int(input("Insert m: "))
-n = int(input("Insert n: "))
-
-print("The sum provides:", FC.sum(m,n))
-print("The division provides:",FC.divide(m,n))
